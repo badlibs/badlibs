@@ -18,8 +18,8 @@ var firstVerb = prompt("Write an 'ing' verb")
 var firstPlace = prompt("Write a place")
 var secondAdjective = prompt("Write an adjective")
 var thirdAdjective = prompt("Write an adjective")
-// var secondVerb = prompt("Write an 'ed' ending verb") 
-// var firstNoun = prompt("Write a noun")
+var secondVerb = prompt("Write an 'ed' ending verb") 
+var firstNoun = prompt("Write a noun")
 // var thirdVerb = prompt("Write an 'ed' ending verb")
 // var firstClothing = prompt("Write a piece of clothing")
 // var fourthAdjective = prompt("Write an adjective")
@@ -69,6 +69,20 @@ thirdAdjectiveID = 0;
 thirdAdjectiveID = document.getElementById("thirdAdjectiveID");
 
 thirdAdjectiveID.innerHTML = thirdAdjective
+
+
+secondVerbID = 0;
+
+secondVerbID = document.getElementById("secondVerbID");
+
+secondVerbID.innerHTML = secondVerb
+
+
+firstNounID = 0;
+
+firstNounID = document.getElementById("firstNounID");
+
+firstNounID.innerHTML = firstNoun
 }
 </script>
 </head>
@@ -99,7 +113,13 @@ _________
 _________
 </span>
 <p>
-<button onclick=myFunction() > Run Code </button>
+<button onclick=myFunction() > Run Code </button>but they were easily
+<span id="secondVerb">
+_________
+</span> in the
+<span id="firstNoun">
+_________
+</span>
 	
 </p>
 
