@@ -15,8 +15,7 @@ function myFunction() {
 var firstAdjective = prompt("Write an adjective")
 var firstName = prompt("Write someone's Name")
 var firstVerb = prompt("Write an 'ing' verb")
-// var firstVerb = prompt("Write an 'ing'ending verb")
-// var firstPlace = prompt("Write a place")
+var firstPlace = prompt("Write a place")
 // var secondAdjective = prompt("Write an adjective")
 // var thirdAdjective = prompt("Write an adjective")ßs
 // var secondVerb = prompt("Write an 'ed' ending verb") 
@@ -49,6 +48,12 @@ firstVerbID = 0;
 firstVerbID = document.getElementById("firstVerbID");
 
 firstVerbID.innerHTML = firstVerb
+
+firstPlaceID = 0;
+
+firstPlaceID = document.getElementById("firsPlaceID");
+
+firstPlaceID.innerHTML = firstPlace
 }
 </script>
 </head>
@@ -68,7 +73,10 @@ __________
 and Batman were out
 <span id="firstVerbID">
 _________
-</span> crime
+</span> crime and putting criminals in
+<span id="firstPlaceID">
+_________
+</span>
 <p>
 <button onclick=myFunction() > Run Code </button>
 	
