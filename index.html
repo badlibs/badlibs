@@ -16,8 +16,8 @@ var firstAdjective = prompt("Write an adjective")
 var firstName = prompt("Write someone's Name")
 var firstVerb = prompt("Write an 'ing' verb")
 var firstPlace = prompt("Write a place")
-// var secondAdjective = prompt("Write an adjective")
-// var thirdAdjective = prompt("Write an adjective")ßs
+var secondAdjective = prompt("Write an adjective")
+var thirdAdjective = prompt("Write an adjective")
 // var secondVerb = prompt("Write an 'ed' ending verb") 
 // var firstNoun = prompt("Write a noun")
 // var thirdVerb = prompt("Write an 'ed' ending verb")
@@ -55,6 +55,20 @@ firstPlaceID = 0;
 firstPlaceID = document.getElementById("firstPlaceID");
 
 firstPlaceID.innerHTML = firstPlace
+
+
+secondAdjectiveID = 0;
+
+secondAdjectiveID = document.getElementById("secondAdjectiveID");
+
+secondAdjectiveID.innerHTML = secondAdjective
+
+
+thirdAdjectiveID = 0;
+
+thirdAdjectiveID = document.getElementById("thirdAdjectiveID");
+
+thirdAdjectiveID.innerHTML = thirdAdjective
 }
 </script>
 </head>
@@ -77,7 +91,13 @@ _________
 </span> crime and putting criminals in
 <span id="firstPlaceID">
 _________
-</span>.
+</span>. The criminals were
+<span id="secondAdjectiveID">
+_________
+</span> and
+<span id="thirdAdjectiveID">
+_________
+</span>
 <p>
 <button onclick=myFunction() > Run Code </button>
 	
