@@ -24,7 +24,8 @@ var thirdVerb = prompt("Write an 'ed' ending verb")
 var fourthVerb = prompt("Write an 'ed' ending verb")
 var firstClothing = prompt("Write a piece of clothing")
 var fourthAdjective = prompt("Write an adjective")
-// var secondNoun = prompt("Write a noun") 
+var secondNoun = prompt("Write a noun") 
+var fifthVerb = prompt("Write an 'ed' ending verb")
 
 	// before using innerHTML as tool, we need object(p,span,div) with an ID
 firstAdjectiveID = 0;
@@ -112,10 +113,24 @@ fourthAdjectiveID = 0;
 fourthAdjectiveID = document.getElementById("fourthAdjectiveID");
 
 fourthAdjectiveID.innerHTML = fourthAdjective
+
+
+secondNounID = 0;
+
+secondNounID = document.getElementById("secondNounID");
+
+secondNounID.innerHTML = secondNoun
+
+
+fifthVerbID = 0;
+
+fifthVerbID = document.getElementById("fifthVerbID");
+
+fifthVerbID.innerHTML = fifthVerb
 }
 
-
 </script>
+
 </head>
 
 
@@ -160,7 +175,13 @@ _________
 </span>. The clothing was 
 <span id="fourthAdjectiveID">
 _________
-</span> when they were done with it.
+</span> when they were done with it. Then they were put in a
+<span id="secondNounID">
+_________
+</span> and were driven to a location. Here Batman 
+<span id="fifthVerbID">
+_________
+</span> them until they talked. Batman was happy with his work and said his favorite thing to say “famous quote”.
 
 </body>
 
