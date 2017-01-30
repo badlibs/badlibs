@@ -12,21 +12,22 @@
 function myFunction() {
 
 
-var firstAdjective = "It was a dark and "  + prompt("Write an adjective") + " night in Portland"
-var firstName = prompt("Write someone's Name")
-var firstVerb = prompt("Write an 'ing' verb")
-var firstPlace = prompt("Write a place")
-var secondAdjective = prompt("Write an adjective")
-var thirdAdjective = prompt("Write an adjective")
-var secondVerb = prompt("Write an 'ed' ending verb") 
-var firstNoun = prompt("Write a noun")
-var thirdVerb = prompt("Write an 'ed' ending verb")
-var fourthVerb = prompt("Write an 'ed' ending verb")
-var firstClothing = prompt("Write a piece of clothing")
-var fourthAdjective = prompt("Write an adjective")
-var secondNoun = prompt("Write a noun") 
-var fifthVerb = prompt("Write an 'ed' ending verb")
-var firstQuote = prompt("Write a famous quote")
+var firstAdjective = "It was a dark and "  + prompt("Write an adjective") + " night in Portland. "
+var firstName = prompt("Write someone's Name") + " and Batman were out"
+var firstVerb = prompt("Write an 'ing' verb") + " crime and putting criminals in their "
+var firstPlace = prompt("Write a place") + '. The criminals were '
+var secondAdjective = prompt("Write an adjective") + " and "
+var thirdAdjective = prompt("Write an adjective") + " but they were easily "
+var secondVerb = prompt("Write an 'ed' ending verb") + " in the "
+var firstNoun = prompt("Write a noun") + ". After they "
+var thirdVerb = prompt("Write an 'ed' ending verb") + ", the criminals "
+var fourthVerb = prompt("Write an 'ed' ending verb") + " in their "
+var firstClothing = prompt("Write a piece of clothing") + ". The clothing was "
+var fourthAdjective = prompt("Write an adjective") + " when they were done with it. Then they were put in a "
+var secondNoun = prompt("Write a noun") + " and driven to "
+var secondNoun = prompt("Write a place") + ". Here batman "
+var fifthVerb = prompt("Write an 'ed' ending verb") + " them until they talked. Batman was happy with his work and said his favorite thing to say: "
+var firstQuote = prompt("Write a famous quote") 
 	// before using innerHTML as tool, we need object(p,span,div) with an ID
 firstAdjectiveID = 0;
 // declare a new varible, and initialize to some default value. 
@@ -122,6 +123,13 @@ secondNounID = document.getElementById("secondNounID");
 secondNounID.innerHTML = secondNoun
 
 
+secondPlaceID = 0;
+
+secondPlaceID = document.getElementById("secondPlaceID");
+
+secondPlaceID.innerHTML = secondPlace
+
+
 fifthVerbID = 0;
 
 fifthVerbID = document.getElementById("fifthVerbID");
@@ -152,43 +160,46 @@ firstQuoteID.innerHTML = firstQuote
 <span id="firstNameID">
 <!-- __________  -->
 </span> 
-and Batman were out
+<!-- and Batman were out -->
 <span id="firstVerbID">
 _________
-</span> crime and putting criminals in
+</span> <!-- crime and putting criminals in -->
 <span id="firstPlaceID">
 _________
-</span>. The criminals were
+</span>. <!-- The criminals were -->
 <span id="secondAdjectiveID">
 _________
-</span> and
+</span> <!-- and -->
 <span id="thirdAdjectiveID">
 _________
-</span> but they were easily	
+</span> <!-- but they were easily -->	
 <span id="secondVerbID">
 _________
-</span> in the
+</span> <!-- in the -->
 <span id="firstNounID">
 _________
-</span>. After they 
+</span>. <!-- After they --> 
 <span id="thirdVerbID">
 _________
-</span> the criminals 
+</span> <!-- the criminals  -->
 <span id="fourthVerbID">
 _________
-</span> in their 
+</span> i<!-- n their --> 
 <span id="firstClothingID">
 _________
-</span>. The clothing was 
+</span><!-- . The clothing was --> 
 <span id="fourthAdjectiveID">
 _________
-</span> when they were done with it. Then they were put in a
+</span> <!-- when they were done with it. Then they were put in a -->
 <span id="secondNounID">
 _________
-</span> and were driven to a location. Here Batman 
+</span> <!-- and were driven to a --> 
+<span id = "secondPlaceID">
+</span>
+ <!-- Here Batman -->
 <span id="fifthVerbID">
 _________
-</span> them until they talked. Batman was happy with his work and said his favorite thing to say 
+</span> <!-- them until they talked. Batman was happy with his work and said his favorite thing to say --> 
 "<span id="firstQuoteID">
 _________
 </span>"
