@@ -26,15 +26,13 @@ var firstClothing = prompt("Write a piece of clothing") + ". The clothing was "
 var fourthAdjective = prompt("Write an adjective") + " when they were done with it. Then they were put in a "
 var secondNoun = prompt("Write a noun") + " and driven to "
 var secondNoun = prompt("Write a place") + ". Here batman "
-var fifthVerb = prompt("Write an 'ed' ending verb") + " them until they talked. Batman was happy with his work and said his favorite thing to say "
-var firstQuote = prompt("Write a famous quote") 
-	// before using innerHTML as tool, we need object(p,span,div) with an ID
+var fifthVerb = prompt("Write an 'ed' ending verb") + " them until they talked." 
+var firstQuote = " Batman was happy with his work and said his favorite thing to say " + prompt("Write a famous quote") 
+	
+
 firstAdjectiveID = 0;
-// declare a new varible, and initialize to some default value. 
 
 firstAdjectiveID = document.getElementById("firstAdjectiveID");
-
-// on the line above we fetch the id, then we use the id below.  
 
 firstAdjectiveID.innerHTML = firstAdjective;
 
@@ -142,6 +140,8 @@ firstQuoteID = 0;
 firstQuoteID = document.getElementById("firstQuoteID");
 
 firstQuoteID.innerHTML = firstQuote
+
+
 }
 
 </script>
@@ -151,9 +151,9 @@ firstQuoteID.innerHTML = firstQuote
 
 <body>
 	
-	<span id="firstAdjectiveID" >
+<span id="firstAdjectiveID" >
 	
-	</span>
+</span>
 
 <span id="firstNameID">
 
@@ -194,14 +194,14 @@ firstQuoteID.innerHTML = firstQuote
 <span id="secondPlaceID">
 
 </span>
- 
-<span id="fifthVerbID">
+ <span id="fifthVerbID">
 
 </span> 
 <span id="firstQuoteID">
 
 </span>
-
+<br>
+<br>
 </body>
 
 <p>
