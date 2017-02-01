@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="badlibs.css">
 <title>Bad Libs test page</title>
 <script type="text/javascript">
 	
@@ -25,9 +25,9 @@ var fourthVerb = prompt("Write an 'ed' ending verb") + " in their "
 var firstClothing = prompt("Write a piece of clothing") + ". The clothing was "
 var fourthAdjective = prompt("Write an adjective") + " when they were done with it. Then they were put in a "
 var secondNoun = prompt("Write a noun") + " and driven to "
-var secondNoun = prompt("Write a place") + ". Here batman "
+var secondPlace = prompt("Write a place") + ". Here batman "
 var fifthVerb = prompt("Write an 'ed' ending verb") + " them until they talked." 
-var firstQuote = " Batman was happy with his work and said his favorite thing to say " + prompt("Write a famous quote") 
+var firstQuote = " Batman was happy with his work and said his favorite thing to say: " + prompt("Write a famous quote") 
 	
 
 firstAdjectiveID = 0;
@@ -149,7 +149,7 @@ firstQuoteID.innerHTML = firstQuote
 </head>
 
 
-<body>
+<div id="firstDiv">
 	
 <span id="firstAdjectiveID" >
 	
@@ -200,9 +200,8 @@ firstQuoteID.innerHTML = firstQuote
 <span id="firstQuoteID">
 
 </span>
-<br>
-<br>
-</body>
+
+</div>
 
 <p>
 <button onclick=myFunction() > Run Code </button>
