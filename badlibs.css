@@ -1,8 +1,16 @@
-#firstDiv {
+#firstDiv{
+color:yellow;
+background-color:black;
+height: 90px;
+width:500px;
+font-size:60pt;
+text-align:center;
+}
+
+#secondDiv {
 color:yellow;
 background-color: black;
 height:160x;
 width:500px;
-
-
 }
+
