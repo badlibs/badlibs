@@ -1,5 +1,6 @@
 #subheaderDiv{
-font-size:60pt;
+color:black;
+font-size:40pt;
 }
 
 #homeDiv{
@@ -7,19 +8,20 @@ font-size:60pt;
 }
 
 #flipperDiv{
-float:;
+float:left;
 }
 
 #teacherDiv{
-float:right;
+float:left;
 }
 
 #batmanDiv{
+float:left;
 
 }
 
 #parrotDiv{
-
+float:left;
 }
 
 
