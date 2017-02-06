@@ -1,3 +1,24 @@
+#homeDiv{
+
+}
+
+#flipperDiv{
+float:left;
+}
+
+#teacherDiv{
+float:left;
+}
+
+#batmanDiv{
+
+}
+
+#parrotDiv{
+
+}
+
+
 #firstDiv{
 color:yellow;
 background-color:black;
@@ -15,7 +36,7 @@ width:500px;
 }
 
 #thirdDiv{
-color:blue;
+color:#6495ED;
 background-color:yellow;
 height: 90px;
 width:500px;
@@ -24,15 +45,15 @@ text-align:center;
 }
 
 #fourthDiv {
-color:blue;
+color:#6495ED;
 background-color: yellow;
 height:160x;
 width:500px;
 }
 
 #fifthDiv{
-color:yellow;
-background-color:black;
+color:#FFA500;
+background-color:#FF4500;
 height: 90px;
 width:500px;
 font-size:60pt;
@@ -40,8 +61,8 @@ text-align:center;
 }
 
 #sixthDiv {
-color:yellow;
-background-color: black;
+color:#FFA500;
+background-color:#FF4500;
 height:160x;
 width:500px;
 }
