@@ -88,3 +88,21 @@ background-color:#FFDEAD;
 height:160x;
 width:500px;
 }
+
+#batmanBack {
+color:black;
+background-color:white;
+height:20px;
+width:120px;
+border-style:solid;
+border-color:black;
+}
+
+#parrotBack {
+}
+
+#teacherBack {
+}
+
+#flipperBack {
+}
