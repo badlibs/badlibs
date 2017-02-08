@@ -9,21 +9,44 @@ font-size:40pt;
 
 #flipperDiv{
 float:left;
+
+}
+#flipperDiv:hover{
+float:left;
+border-style:solid;
+border-color:black;
+border-width:2px;
 }
 
 #teacherDiv{
 float:left;
 }
+#teacherDiv:hover{
+float:left;
+border-style:solid;
+border-color:black;
+border-width:2px;
+}
 
 #batmanDiv{
 float:left;
-
+}
+#batmanDiv:hover{
+float:left;
+border-style:solid;
+border-color:black;
+border-width:2px;
 }
 
 #parrotDiv{
 float:left;
 }
-
+#parrotDiv:hover{
+float:left;
+border-style:solid;
+border-color:black;
+border-width:2px;
+}
 
 #firstDiv{
 color:yellow;
