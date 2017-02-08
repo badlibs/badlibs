@@ -9,43 +9,50 @@ font-size:40pt;
 
 #flipperDiv{
 float:left;
-
+height:250px;
 }
 #flipperDiv:hover{
 float:left;
+height:250px;
 border-style:solid;
 border-color:black;
-border-width:2px;
+border-width:3px;
 }
 
 #teacherDiv{
 float:left;
+height:250px;
 }
 #teacherDiv:hover{
 float:left;
+height:250px;
 border-style:solid;
 border-color:black;
-border-width:2px;
+border-width:3px;
 }
 
 #batmanDiv{
 float:left;
+height:250px;
 }
 #batmanDiv:hover{
 float:left;
+height:250px;
 border-style:solid;
 border-color:black;
-border-width:2px;
+border-width:3px;
 }
 
 #parrotDiv{
 float:left;
+height:250px;
 }
 #parrotDiv:hover{
 float:left;
+height:250px;
 border-style:solid;
 border-color:black;
-border-width:2px;
+border-width:3px;
 }
 
 #firstDiv{
@@ -124,6 +131,18 @@ font-family:arial;
 text-align:center; 
 border-width:1px;
 }
+#batmanBack:hover {
+color:black;
+background-color:white;
+height:19px;
+width:130px;
+border-style:solid;
+border-color:black;
+font-size:13pt;
+font-family:arial;
+text-align:center; 
+border-width:2px;
+}
 
 #parrotBack {
 color:black;
@@ -137,8 +156,45 @@ font-family:arial;
 text-align:center; 
 border-width:1px;
 }
+#parrotBack:hover {
+color:black;
+background-color:white;
+height:19px;
+width:130px;
+border-style:solid;
+border-color:black;
+font-size:13pt;
+font-family:arial;
+text-align:center; 
+border-width:2px;
+}
 
 #teacherBack {
+color:black;
+background-color:white;
+height:19px;
+width:130px;
+border-style:solid;
+border-color:black;
+font-size:13pt;
+font-family:arial;
+text-align:center; 
+border-width:1px;
+}
+#teacherBack:hover {
+color:black;
+background-color:white;
+height:19px;
+width:130px;
+border-style:solid;
+border-color:black;
+font-size:13pt;
+font-family:arial;
+text-align:center; 
+border-width:2px;
+}
+
+#flipperBack{
 color:black;
 background-color:white;
 height:17px;
@@ -150,16 +206,15 @@ font-family:arial;
 text-align:center; 
 border-width:1px;
 }
-
-#flipperBack {
+#flipperBack:hover {
 color:black;
 background-color:white;
-height:17px;
-width:120px;
+height:19px;
+width:130px;
 border-style:solid;
 border-color:black;
-font-size:12pt;
+font-size:13pt;
 font-family:arial;
 text-align:center; 
-border-width:1px;
+border-width:2px;
 }
