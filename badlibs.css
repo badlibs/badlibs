@@ -96,6 +96,9 @@ height:20px;
 width:120px;
 border-style:solid;
 border-color:black;
+font-size:12pt;
+font-family:arial;
+text-align:center; 
 }
 
 #parrotBack {
