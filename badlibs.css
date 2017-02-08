@@ -92,20 +92,51 @@ width:500px;
 #batmanBack {
 color:black;
 background-color:white;
-height:20px;
+height:17px;
 width:120px;
 border-style:solid;
 border-color:black;
 font-size:12pt;
 font-family:arial;
 text-align:center; 
+border-width:1px;
 }
 
 #parrotBack {
+color:black;
+background-color:white;
+height:17px;
+width:120px;
+border-style:solid;
+border-color:black;
+font-size:12pt;
+font-family:arial;
+text-align:center; 
+border-width:1px;
 }
 
 #teacherBack {
+color:black;
+background-color:white;
+height:17px;
+width:120px;
+border-style:solid;
+border-color:black;
+font-size:12pt;
+font-family:arial;
+text-align:center; 
+border-width:1px;
 }
 
 #flipperBack {
+color:black;
+background-color:white;
+height:17px;
+width:120px;
+border-style:solid;
+border-color:black;
+font-size:12pt;
+font-family:arial;
+text-align:center; 
+border-width:1px;
 }
