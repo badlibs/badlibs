@@ -55,6 +55,18 @@ border-color:black;
 border-width:3px;
 }
 
+#spaceDiv{
+float:left;
+height:250px;
+}
+#spaceDiv:hover{
+float:left;
+height:250px;
+border-style:solid;
+border-color:black;
+border-width:3px;
+}
+
 #firstDiv{
 color:yellow;
 background-color:black;
@@ -115,6 +127,22 @@ text-align:center;
 #eightDiv {
 color:black;
 background-color:#FFDEAD;
+height:160x;
+width:500px;
+}
+
+#ninthDiv{
+color:white;
+background-color:black;
+height: 90px;
+width:500px;
+font-size:60pt;
+text-align:center;
+}
+
+#tenthDiv {
+color:white;
+background-color:black;
 height:160x;
 width:500px;
 }
@@ -207,6 +235,31 @@ text-align:center;
 border-width:1px;
 }
 #flipperBack:hover {
+color:black;
+background-color:white;
+height:19px;
+width:130px;
+border-style:solid;
+border-color:black;
+font-size:13pt;
+font-family:arial;
+text-align:center; 
+border-width:2px;
+}
+
+#spaceBack{
+color:black;
+background-color:white;
+height:17px;
+width:120px;
+border-style:solid;
+border-color:black;
+font-size:12pt;
+font-family:arial;
+text-align:center; 
+border-width:1px;
+}
+#spaceBack:hover {
 color:black;
 background-color:white;
 height:19px;
