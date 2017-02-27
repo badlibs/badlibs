@@ -194,7 +194,7 @@ border-width:3px;
 } 
 
 #teacherBack {
-color:black;
+color:white;
 height:50px;
 width:150px;
 border-style:solid;
@@ -205,7 +205,7 @@ text-align:center;
 border-width:1px;
 }
 #teacherBack:hover {
-color:black;
+color:white;
 height:50px;
 width:150px;
 border-style:solid;
